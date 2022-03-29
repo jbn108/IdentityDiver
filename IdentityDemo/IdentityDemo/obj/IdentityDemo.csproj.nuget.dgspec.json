@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/IdentityDemo.csproj": {}
+    "/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/IdentityDemo.csproj": {}
   },
   "projects": {
-    "/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/IdentityDemo.csproj": {
+    "/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/IdentityDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/IdentityDemo.csproj",
+        "projectUniqueName": "/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/IdentityDemo.csproj",
         "projectName": "IdentityDemo",
-        "projectPath": "/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/IdentityDemo.csproj",
+        "projectPath": "/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/IdentityDemo.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/obj/",
+        "outputPath": "/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"

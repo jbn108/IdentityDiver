@@ -8,37 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IdentityDemo
 build_property.RootNamespace = IdentityDemo
-build_property.ProjectDir = /Users/mac/RiderProjects/IdentityDemo/IdentityDemo/
+build_property.ProjectDir = /Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mac/RiderProjects/IdentityDemo/IdentityDemo
+build_property.MSBuildProjectDirectory = /Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/Error.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/Index.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/Privacy.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/_ViewImports.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/_ViewStart.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/RiderProjects/IdentityDemo/IdentityDemo/Pages/Shared/_Layout.cshtml]
+[/Users/mac/RiderProjects/IdentityDiver/IdentityDemo/IdentityDemo/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8qgjitd1no
