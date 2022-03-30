@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp_UnderTheHood.Authorization;
 
 namespace WebApp_UnderTheHood
 {
@@ -27,6 +28,19 @@ namespace WebApp_UnderTheHood
             {
                 options.Cookie.Name = "MyCookieAuth";
             });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("MustBeHR", 
+                    policy => policy.RequireClaim("Department", "HR"));
+                options.AddPolicy("HRManagerOnly", policy => policy
+                    .RequireClaim("Department", "HR")
+                    .RequireClaim("Manager")
+                    .Requirements.Add(new HRManagerProbationRequirement(3)));
+            });
+            
+            
+            
             services.AddRazorPages();
         }
 

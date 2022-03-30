@@ -28,7 +28,10 @@ public class Login : PageModel
             {
                 new Claim(ClaimTypes.Name, "admin"),
                 new Claim(ClaimTypes.Email, "admin@admin.com"),
-                new Claim(ClaimTypes.Role, "Admin")
+                new Claim(ClaimTypes.Role, "Admin"),
+                new Claim("Department", "HR"),
+                new Claim("EmploymentDate", "2022-03-30"),
+                new Claim("Manager", "True"),
             };
 
             var identity = new ClaimsIdentity(claims, "MyCookieAuth");
