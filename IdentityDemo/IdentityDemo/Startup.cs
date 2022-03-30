@@ -27,6 +27,7 @@ namespace WebApp_UnderTheHood
             services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
             {
                 options.Cookie.Name = "MyCookieAuth";
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(20); 
             });
 
             services.AddAuthorization(options =>

@@ -11,7 +11,7 @@ public class Login : PageModel
 {
     [BindProperty]
     public Credential Credential { get; set; }
-    
+
     public void OnGet()
     {
        
@@ -30,14 +30,19 @@ public class Login : PageModel
                 new Claim(ClaimTypes.Email, "admin@admin.com"),
                 new Claim(ClaimTypes.Role, "Admin"),
                 new Claim("Department", "HR"),
-                new Claim("EmploymentDate", "2022-03-30"),
+                new Claim("EmploymentDate", "2021-03-30"),
                 new Claim("Manager", "True"),
+            };
+
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = Credential.RememberMe
             };
 
             var identity = new ClaimsIdentity(claims, "MyCookieAuth");
             var claimsPrincipal = new ClaimsPrincipal(identity);
 
-            await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
+            await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal, authProperties);
 
             return RedirectToPage("/Index");
         }
@@ -54,4 +59,7 @@ public class Credential
     [Required]
     [DataType(DataType.Password)]
     public string Password { get; set; }
+    
+    [Display(Name = "Remember Me")] 
+    public bool RememberMe { get; set; }
 }
